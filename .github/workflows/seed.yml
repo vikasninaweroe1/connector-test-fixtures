@@ -1,0 +1,7 @@
+name: seed
+on: workflow_dispatch
+jobs:
+  noop:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo 'seed workflow for v2 connector tests'
